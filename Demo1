@@ -1,0 +1,21 @@
+package Project;
+
+
+
+//Java program to demonstrate the use of Scanner class
+//to take input from user
+import java.util.Scanner;
+
+public class Demo1 {
+
+ public static void main(String[] args) {
+
+     Scanner sc = new Scanner(System.in);
+     System.out.println("Enter your name:");
+     String name = sc.nextLine();
+
+     System.out.println("Hello, " + name + " Welcome to the GeeksforGeeks.");
+
+ }
+
+}
